@@ -1,0 +1,11 @@
+/*
+* Created by AIS3N
+*/
+
+void	my_swap(int *a, int *b)
+{
+  int	n;
+  n = *a;
+  *a = *b;
+  *b = n;
+}
